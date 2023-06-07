@@ -1,0 +1,109 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2dddd;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #inicio p, #sobre-mi p{
+    width: 79%;
+    margin-left: 130px;
+  }
+  
+  section{
+    padding: 18px;
+  }
+
+  #inicio, #sobre-mi, #proyectos{
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /*Formulario */
+
+  .contacto {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
